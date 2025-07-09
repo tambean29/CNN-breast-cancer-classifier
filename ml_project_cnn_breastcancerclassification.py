@@ -54,8 +54,8 @@ train_datagen = ImageDataGenerator(
 
 val_datagen = ImageDataGenerator(rescale=1./255)
 
-train_dir = '/content/drive/MyDrive/DataSets/Breast Cancer/train'
-val_dir = '/content/drive/MyDrive/DataSets/Breast Cancer/test'
+train_dir = 'Breast Cancer/train'
+val_dir = 'Breast Cancer/test'
 
 train_generator = train_datagen.flow_from_directory(
     train_dir,
